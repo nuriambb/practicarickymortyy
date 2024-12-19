@@ -1,0 +1,22 @@
+.rotated {
+  transform: rotateX(180deg);
+  transition: transform 0.5s ease; /* Transición suave */
+}
+
+.default {
+  transform: rotateX(0deg);
+  transition: transform 0.5s ease;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container2 {
+  background-color: rgba(121, 121, 121, 0.432);
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+}
